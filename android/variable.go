@@ -99,6 +99,7 @@ type variableProperties struct {
 
 		// include Lineage variables
 		Lineage android.Product_variables
+		Qualcomm android_lineage.Product_variables
 	} `android:"arch_variant"`
 }
 
@@ -175,6 +176,7 @@ type productVariables struct {
 
 	// include Lineage variables
 	Lineage android.ProductVariables
+	Qualcomm android_lineage.ProductVariables
 }
 
 func boolPtr(v bool) *bool {
